@@ -173,7 +173,9 @@
 	{
         "compra":999,
         "produtos": [
-            "Pastel Presunto e Queijo",
+            "Pastel", 
+            "Presunto",
+            "Queijo",
             "Refri - Pepsi"
         ]
     },
