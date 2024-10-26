@@ -16,7 +16,7 @@ dataset <- json %>%
 trans <- as(split(dataset$produtos, dataset$compra), "transactions")
 inspect(trans)
 
-rules <- apriori(trans, parameter = list(supp = 0.04, conf = 0.2, minlen=2))
+rules <- apriori(trans, parameter = list(supp = 0.04, conf = 0.5, minlen=2))
 
 inspect(rules)
 
